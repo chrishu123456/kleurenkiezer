@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="turquoiseColor" A="255" R="50" G="220" B="200"></Color>
+    <Color x:Key="rood" A="255" R="255" G="0" B="0"></Color>
+    <Color x:Key="groen" A="255" R="0" G="255" B="0"></Color>
+    <Color x:Key="blauw" A="255" R="0" G="0" B="255"></Color>
+    <Color x:Key="wit" A="255" R="255" G="255" B="255"></Color>
+    
+    <SolidColorBrush x:Key="turquoiseBrush"
+                     Color="{StaticResource turquoiseColor}"></SolidColorBrush>
+    <SolidColorBrush x:Key="roodBrush"
+                         Color="{StaticResource rood}"></SolidColorBrush>
+    <SolidColorBrush x:Key="groenBrush"
+                     Color="{StaticResource groen}"></SolidColorBrush>
+    <SolidColorBrush x:Key="blauwBrush"
+                     Color="{StaticResource blauw}"></SolidColorBrush>
+    <SolidColorBrush x:Key="witBrush"
+                     Color="{StaticResource wit}"></SolidColorBrush>
+</ResourceDictionary>
