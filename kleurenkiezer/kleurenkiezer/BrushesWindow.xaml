@@ -12,6 +12,11 @@
         <SolidColorBrush x:Key="paarsBrush"
                          Color="{StaticResource paarsColor}"></SolidColorBrush>
     </Window.Resources>
-    <StackPanel Background="{StaticResource rainbowRadial}">
+    <StackPanel>
+        <TextBlock Text="M" FontSize="200" FontWeight="ExtraBold">
+        <TextBlock.Foreground>
+            <ImageBrush ImageSource="Images/vdab.bmp" Viewport="0,0,0.2,0.1" TileMode="Tile"></ImageBrush>
+        </TextBlock.Foreground>
+        </TextBlock>
     </StackPanel>
 </Window>
