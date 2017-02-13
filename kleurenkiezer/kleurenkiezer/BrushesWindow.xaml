@@ -6,17 +6,15 @@
         xmlns:local="clr-namespace:kleurenkiezer"
         mc:Ignorable="d"
         Title="BrushesWindow" Height="350" Width="525">
-    <Window.Resources>
-        <Color x:Key="paarsColor" A="255" R="170" G="40" B="165"></Color>
 
-        <SolidColorBrush x:Key="paarsBrush"
-                         Color="{StaticResource paarsColor}"></SolidColorBrush>
-    </Window.Resources>
-    <StackPanel>
-        <TextBlock Text="M" FontSize="200" FontWeight="ExtraBold">
-        <TextBlock.Foreground>
-            <ImageBrush ImageSource="Images/vdab.bmp" Viewport="0,0,0.2,0.1" TileMode="Tile"></ImageBrush>
-        </TextBlock.Foreground>
-        </TextBlock>
-    </StackPanel>
+    <DockPanel>
+        <StackPanel Name="Panelmetknop" Margin="5,0">
+            <ToggleButton Name="VergrootButton" Background="Orange" Click="VergrootButton_Click"  IsChecked="False" Height="60" Width="125" Content="Vergroot"></ToggleButton>
+            <TextBox Height="50" Width="125">tikkerdetik</TextBox>
+        </StackPanel>
+        <Rectangle Name="Vergroting" Width="500" Height="400" HorizontalAlignment="Left" VerticalAlignment="Top">
+            
+        </Rectangle>
+    </DockPanel>
+
 </Window>
